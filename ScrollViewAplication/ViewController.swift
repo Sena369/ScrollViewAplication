@@ -14,7 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var container: UIView!
+    @IBAction func answerButton(_ sender: Any) {
+    
+        answerImageView.image = UIImage(named: "virus_ryokunoukin")
+        
+    }
+    @IBOutlet weak var answerImageView: UIImageView!
+    
     
 }
 
